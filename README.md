@@ -40,7 +40,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <div id="about-the-project"></div>
-This is dockerized wordpress, just one command and you can lay back and relax. 
+Simple rest test data
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
@@ -62,32 +62,10 @@ This is an example of how to list things you need to use the software and how to
 * docker install on your machine
 * docker compose install on your machine
 
-### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/zerogpm/wordpress-docker.git
-   ```
-2. CD into you downloaded folder
-   ```sh
-   docker compose up
-   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Fix docker compose issues
-- [ ] Tell users how to use docker-compose-custom.yml
-- [ ] Multi-language Support
-    - [ ] Chinese
-
-See the [open issues](https://github.com/zerogpm/wordpress-docker/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -116,14 +94,6 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Project Link: [https://github.com/zerogpm/wordpress-docker](https://github.com/zerogpm/wordpress-docker)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
