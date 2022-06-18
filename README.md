@@ -44,7 +44,7 @@ Simple rest test data
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like setting up wordpress, PHP, MYSQL, Nginx
+* You shouldn't be doing the same tasks over and over like setting up wordpress, PHP, MYSQL
 * You should implement DRY principles to the rest of your life :smile:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
