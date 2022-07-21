@@ -4,7 +4,7 @@ on:
   #Action allow you manually from on github
   workflow_dispatch:
 
-job:
+jobs:
   build:
     runs-on:
       - self-hosted
