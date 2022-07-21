@@ -3,15 +3,9 @@ name: simple
 on: [push]
 
 jobs:
-  build:
-    runs-on:
-      - self-hosted
-      - Linux
+  print-username:
+  runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: test node js
-      - run: |
-          echo Hello, world!
-          node -v
+  steps:
+    - name: Print the input name to STDOUT
+      run: node 0v
