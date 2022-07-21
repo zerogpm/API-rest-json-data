@@ -1,8 +1,6 @@
 name: simple
 
-on:
-  #Action allow you manually from on github
-  workflow_dispatch:
+on: [push]
 
 jobs:
   build:
@@ -11,7 +9,8 @@ jobs:
       - Linux
 
     steps:
+      - name: test node js
       - uses: actions/checkout@2
-      - runs: |
+      - run: |
           echo Hello, world!
           node -v
