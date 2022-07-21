@@ -10,7 +10,6 @@ jobs:
 
     steps:
       - name: test node js
-      - uses: actions/checkout@2
       - run: |
           echo Hello, world!
           node -v
