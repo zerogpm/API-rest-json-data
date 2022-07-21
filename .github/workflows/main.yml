@@ -9,6 +9,8 @@ jobs:
       - Linux
 
     steps:
+      - uses: actions/checkout@v2
+
       - name: test node js
       - run: |
           echo Hello, world!
