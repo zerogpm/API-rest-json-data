@@ -4,8 +4,8 @@ on: [push]
 
 jobs:
   print-username:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Print the input name to STDOUT
-        run: node 0v
+        run: node -v
