@@ -14,3 +14,7 @@ jobs:
         run: | 
           node -v
           ls -la
+
+      - name: list files
+        run: |
+          ls -la    
