@@ -10,11 +10,6 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
 
-     - name: list files
-       run: | 
-          pwd
-          ls -a
-
       - name: Check node v2
         run: | 
           node -v
