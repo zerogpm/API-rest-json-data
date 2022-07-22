@@ -13,8 +13,7 @@ jobs:
       - name: Check node v2
         run: | 
           node -v
-          ls -la
 
-      - name: list files
+      - name: List files
         run: |
           ls -la    
