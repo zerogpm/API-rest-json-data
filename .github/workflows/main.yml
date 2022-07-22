@@ -13,4 +13,4 @@ jobs:
       - name: Check node v2
         run: | 
           node -v
-          echo hello, world
+          ls -la
