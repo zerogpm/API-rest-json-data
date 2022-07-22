@@ -3,7 +3,7 @@ name: simple
 on: [push]
 
 jobs:
-  print-username:
+  test-action:
     runs-on: self-hosted
 
     steps:
@@ -13,4 +13,7 @@ jobs:
       - name: Check node v2
         run: | 
           node -v
-          echo hello, world
+
+      - name: List files
+        run: |
+          ls -la    
