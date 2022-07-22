@@ -12,7 +12,8 @@ jobs:
 
      - name: list files
        run: | 
-          ls -la
+          pwd
+          ls -a
 
       - name: Check node v2
         run: | 
