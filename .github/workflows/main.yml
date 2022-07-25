@@ -25,7 +25,7 @@ jobs:
         uses: actions/upload-artifact@v2.2.0
         with:
           name: cover-data.json
-          path: API-rest-json-data/data.json
+          path: data.json
           if-no-files-found: error
           retention-days: 1
 
