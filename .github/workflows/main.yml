@@ -21,6 +21,14 @@ jobs:
         run: |
           ls -la
 
+      - name: Upload Files to github
+        uses: actions/upload-artifact@v2.2.0
+        with:
+          name: cover-data.json
+          path: API-rest-json-data/data.json
+          if-no-files-found: error
+          retention-days: 1
+
   node-docker:
     runs-on: ubuntu-latest
     container:
