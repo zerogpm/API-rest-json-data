@@ -1,0 +1,22 @@
+name: simple
+
+on:
+  push:
+    branches:
+      - features
+
+jobs:
+  test-action:
+    runs-on: self-hosted
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: Check node v2
+        run: |
+          node -v
+
+      - name: List files
+        run: |
+          ls -la
