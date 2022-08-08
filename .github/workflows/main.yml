@@ -2,6 +2,16 @@ name: test
 
 on:
   workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+        type: choice
+          options:
+            - info
+            - warning
+            - debug
 
 jobs:
   test-action:
@@ -18,3 +28,4 @@ jobs:
       - name: List files
         run: |
           ls -la
+          echo "Environment: ${{inputs.logLevel}}"
