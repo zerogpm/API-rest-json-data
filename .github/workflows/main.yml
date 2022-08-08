@@ -1,4 +1,4 @@
-name: simple
+name: features
 
 on:
   push:
