@@ -1,4 +1,4 @@
-name: simple
+name: simple action
 
 on:
   workflow_dispatch:
