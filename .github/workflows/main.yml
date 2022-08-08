@@ -1,9 +1,7 @@
 name: simple
 
 on:
-  push:
-    branches:
-      - master
+  workflow_dispatch:
 
 jobs:
   test-action:
@@ -20,21 +18,3 @@ jobs:
       - name: List files
         run: |
           ls -la
-
-      - name: Upload Files to github
-        uses: actions/upload-artifact@v2.2.0
-        with:
-          name: cover-data.json
-          path: data.json
-          if-no-files-found: error
-          retention-days: 1
-
-  node-docker:
-    runs-on: ubuntu-latest
-    container:
-      image: node:13.5.0-alpine3.10
-    steps:
-      - name: Log node version
-        run: |
-          node -v
-          cat /etc/os-release
